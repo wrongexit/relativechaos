@@ -10,7 +10,7 @@ function draw() {
     if (mouseIsPressed) {
     line(p,0,(p-15)+random(30),height);
     strox=strox+1;
-    //}
+    }
     if (strox>200) {
     strox=0;
     background(255);
