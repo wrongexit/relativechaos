@@ -12,10 +12,17 @@ function draw() {
     strox=strox+1;
     }
     
-    if (touchX>0) {
+    //if (touchX>0) {
+    //line(p,0,(p-15)+random(30),height);
+    //strox=strox+1;
+    //}
+  
+    function touchStarted() {
     line(p,0,(p-15)+random(30),height);
     strox=strox+1;
-    }
+    // prevent default
+    return false;
+    } 
        
     if (strox>200) {
     strox=0;
