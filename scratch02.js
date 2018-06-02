@@ -12,12 +12,11 @@ function draw() {
     strox=strox+1;
     }
     
-    function touchStarted()  {
+    if (touchX>0) {
     line(p,0,(p-15)+random(30),height);
     strox=strox+1;
-      return false;
     }
-    
+       
     if (strox>200) {
     strox=0;
     background(255);
