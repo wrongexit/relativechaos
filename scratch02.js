@@ -13,9 +13,9 @@ return false;
 } 
 */
        
-stroke(255, 0, 0)
 
 function draw() {
+  stroke(255, 0, 0, 99)
   strokeWeight(random(.02*width));
   var p = width*random(1);
     if (mouseIsPressed) {
