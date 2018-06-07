@@ -13,7 +13,7 @@ return false;
 } 
 */
        
-stroke(0, 0, 0, 99)
+stroke(255, 0, 0)
 
 function draw() {
   strokeWeight(random(.02*width));
